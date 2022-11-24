@@ -1,11 +1,16 @@
 {
   "name": "mongoosedb",
   "version": "1.0.0",
-  "description": "One code for connect MongooseDB by Adminashu",
+  "description": "npm package for connect MongooseDB by Adminashu",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "dbCOnnect",
+    "mongooseDB",
+    "database"
+  ],
   "author": "Adminashu",
   "license": "ISC",
   "repository": {
@@ -15,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ADMINASHU/mongooseDB/issues"
   },
-  "homepage": "https://github.com/ADMINASHU/mongooseDB#readme"
+  "homepage": "https://github.com/ADMINASHU/mongooseDB#readme",
+  "dependencies": {
+    "mongoose": "^6.7.3"
+  }
 }

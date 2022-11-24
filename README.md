@@ -5,7 +5,7 @@
 
 ## what is this?
 
-One code for connect MongooseDB by Adminashu
+npm package for connect MongooseDB by Adminashu
 
 ## required other library before use it
 
@@ -51,7 +51,7 @@ $ mongoose/tmp/foo && cd /tmp/foo
   Install dependencies:
 
 ```console
-$ npm install
+$ npm install mongoose
 ```
 
   Start the server:
