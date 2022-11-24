@@ -1,5 +1,5 @@
 {
-  "name": "mongoosedb",
+  "name": "mongoosedbquick",
   "version": "1.0.0",
   "description": "npm package for connect MongooseDB by Adminashu",
   "main": "index.js",

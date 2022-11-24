@@ -1,15 +1,16 @@
-const mongoose = require("mongoose");
+import { connect } from "mongoose";
 
 const dbConnect = (DB_URL) => {
   try {
-    mongoose.connect(DB_URL, {
+    connect(DB_URL, {
       useNewUrlParser: true,
       useFindAndModify: false,
       useUnifiedTopology: true,
     });
     console.log("database connection successfully....");
   } catch (error) {
-    console.log("connection error: ",error.message);
+    console.log("connection error: ", error.message);
   }
 };
+
 export default dbConnect();
