@@ -1,8 +1,8 @@
-import { connect } from "mongoose";
+const mongoose = require("mongoose");
 
 const dbConnect = (DB_URL) => {
   try {
-    connect(DB_URL, {
+    mongoose.connect(DB_URL, {
       useNewUrlParser: true,
       useFindAndModify: false,
       useUnifiedTopology: true,
@@ -13,4 +13,4 @@ const dbConnect = (DB_URL) => {
   }
 };
 
-export default dbConnect;
+module.exports = dbConnect;
