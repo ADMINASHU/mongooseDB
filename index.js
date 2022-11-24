@@ -13,4 +13,4 @@ const dbConnect = (DB_URL) => {
   }
 };
 
-export default dbConnect();
+export default dbConnect;
